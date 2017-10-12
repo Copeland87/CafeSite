@@ -1,0 +1,57 @@
+#logo {
+	height: 50px;
+	width: auto;
+	padding-right: 20px;
+}
+
+#bg1 {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	opacity: 0.9;
+*/}
+
+/*body*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+#storefront {
+	color: #0197f6;
+}
+
+.b1 {
+	color: #0197F6;
+	background-color: #2F343A;
+	font-weight: bolder;
+}
+
+.food {
+	color: #0197F6;
+	border-color: #AD974F;
+	border: 2px solid;
+}
+
+.list1 {
+	color: black;
+}
+
+.fc1 {
+	background-color: #0197F6;
+	text-align: left;
+	color: #FFFF;
+	border-color: #0197F6;
+	font-size: 1.5em;
+	font-weight: bolder;
+}

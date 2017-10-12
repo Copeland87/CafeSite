@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Slate CDN -->
+    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- BootStrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Moment JS -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.18.1/moment.min.js"></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/indexstyle.css">
+    <!-- js -->
+    <script src="./assets/javascript/app.js"></script>
+    <script src="./assets/javascript/wheel.js"></script>
+
+    <!-- unlisted --> 
+
+
+</head>
+
+<body class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="bg1" background="./assets/images/storefrontbw.jpg">
+
+<!-- wrap -->
+
+<div class="content">
+
+  <nav class="navbar navbar-default">
+
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnavi">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+    <div class="container-fluid">
+
+    <img src="assets/images/logo.jpeg" class="navbar-left image-fluid" id="logo" >
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Kansas Coffee Cafe</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainnavi">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./assets/pages/hours.html">Hours and Directions</a></li>
+          <li><a href="https://www.facebook.com/kscoffeecafe/">Facebook</a></li>
+          <li><a href="./assets/pages/about.html">About Us</a></li>
+          <li><a href="./assets/pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id=storefront class="row text-center">
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs 6">
+    <p>Welcome to Kansas City Coffee Cafe</p>
+  </div>
+  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+    <img class="image-fluid" src="">
+  </div>
+</div>
+<br>
+
+
+<div class="w3-bar w3-black">
+  <button class="b1" onclick="openMenu('Drinks')">Drinks</button>
+  <button class="b1" onclick="openMenu('Breakfast')">Breakfast</button>
+  <button class="b1" onclick="openMenu('Lunch')">Lunch</button>
+  <button class="b1" onclick="openMenu('Roulette')">Drink Roulette</button>
+</div>
+<br>
+<!-- drinks -->
+<div id="Drinks" class="food" style="display:none">
+  <div class="row text-center">
+    <div id="coffee" class="col-lg-12 col-sm-12">
+        <h2>Coffee</h2>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Drip Coffee</li>
+            <li class="list-group-item">12oz ~ $2.00  /  16oz ~ $2.50  /  20oz ~ $3.00</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">French Press</li>
+            <li class="list-group-item">16oz ~ $4.00</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Shot in the Dark</li>
+            <li class="list-group-item">12oz ~ $2.75  /  16oz ~ $3.25  /  20oz ~ $3.75</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Americano</li>
+            <li class="list-group-item">12oz ~ $2.75  /  16oz ~ $3.00  /  20oz ~ $3.50</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Latte</li>
+            <li class="list-group-item">12oz ~ $3.75  /  16oz ~ $4.00  /  20oz ~ $4.50</li>
+          </ul>
+        </div>
+    
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Cappuccino</li>
+            <li class="list-group-item">12oz ~ $3.75  /  16oz ~ $4.00  /  20oz ~ $4.50</li>
+          </ul>
+        </div>
+    
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Mocha</li>
+            <li class="list-group-item">12oz ~ $4.25  /  16oz ~ $4.50  /  20oz ~ $5.00</li>
+          </ul>
+        </div>
+    
+    </div> 
+    
+        <!-- coffee end div  -->
+        <br>
+    <div id="coffee" class="col-lg-12 col-sm-12">
+        <h2>Specialties</h2>
+    
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">HoneyBear</li>
+            <li class="list-group-item">Local honey, vain vanilla, cinnamon</li>
+          </ul>
+        </div>
+    
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">SteamBoat</li>
+            <li class="list-group-item">White mocha, brown sugar, cinnamon</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">White Rose</li>
+            <li class="list-group-item">White mocha, rose syrup</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Too Much Carame</li>
+            <li class="list-group-item">caramel sauce and syrup</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">BP Mocha</li>
+            <li class="list-group-item">Peanut butter syrup mixed with dark chocolate</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item active">Dirty Chai</li>
+            <li class="list-group-item">Hugo chai tea latte, with a double shot of espresso.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <ul class="list-group">
+            <li class="list-group-item active">Speciality Drinks</li>
+            <li class="list-group-item">12oz ... $4.50 / 16oz ... $4.75 / 20oz ... $5.25</li>
+          </ul>
+        </div>
+    </div> 
+        <!-- specialties end div  -->
+    
+  </div>  
+</div>
+
+
+<!-- breakfast -->
+<div id="Breakfast" class="food" style="display:none">
+  <div class="row text-center">
+    <h2>Breakfast</h2><br>
+  
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">Rooster ~ $4.58</li>
+        <li class="list-group-item">Two eggs, bacon, and cheddar cheese on a toasted croissant, add ham or turkey for $.50 more.</li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">B.L.T.E. ~ $4.58</li>
+        <li class="list-group-item">Bacon, lettuce, tomato, egg, mayo, on toasted thick white bread, add avocado for $.50 more.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- lunch -->
+<div id="Lunch" class="food" style="display:none">
+  <div class="row text-center">
+    <h2>Sandwiches</h2><br>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#1 - ChickenSalad Sandwich ~ $5.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#2 - Club Plaza ~ $6.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#3 - Gold Crown ~ $6.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#4 - Wizard ~ $6.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#5 - Hot Ham and Swiss ~ $5.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">#6 - Veggie ~ $5.99</li>
+        <li class="list-group-item"></li>
+      </ul>
+    </div>
+
+    <br><h2>Salads</h2><br>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">Farmer ~ $7.99</li>
+        <li class="list-group-item">Organic spinach, chicken, pecans, craisins, croutons, cherry tomatoes, avocado, blue cheese, in a raspberry walnut vinaigrette.</li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-sm-6 col-xs-12">
+      <ul class="list-group">
+        <li class="list-group-item active">Caesar ~ $6.99</li>
+        <li class="list-group-item">Romaine lettuce, chicken, parmesan, croutons, in a creamy caesar dressing.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="Roulette" class="food" style="display:none">
+  <div class="row text-center">
+    <h2>Welcome To Drink Roulette</h2><br>
+
+  </div>
+</div>
+
+<!-- end of content wrap -->
+</div>
+
+<!-- footer -->
+<div class="clearfix"><br>
+
+<div class="footer footer-bottom fc1" style="border: 2px solid;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+       <br>
+        <div class="#">
+          ®Kansas Coffee Cafe LLC
+        </div>
+       <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+
+
+</body>
+
+
+</html>
